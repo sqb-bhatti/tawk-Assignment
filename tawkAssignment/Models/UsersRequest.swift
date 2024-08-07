@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+
+struct UsersRequest {
+    let baseUrl: URL
+    
+    var url: URL {
+        return baseUrl
+    }
+}

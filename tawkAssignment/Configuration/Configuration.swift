@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+enum UserService {
+    static let baseUrl = URL(string: "https://api.github.com/users?since=0")!
+}

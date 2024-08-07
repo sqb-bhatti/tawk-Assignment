@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+
+struct UsersListResponse: Codable {
+    let login: String
+    let id: Int
+    let avatar_url: String
+    let html_url: String
+}
+
+
+
+extension UsersListResponse: GithubUsersData {
+    
+}
